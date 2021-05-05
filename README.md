@@ -1,4 +1,4 @@
-# (talk2me)[https://talk2mee.herokuapp.com]
+# [talk2me](https://talk2mee.herokuapp.com)
 - Learning how chat platforms are built 
 
 #### TECHNOLOGIES

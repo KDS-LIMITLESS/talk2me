@@ -1,0 +1,24 @@
+{
+  "name": "talk2me",
+  "version": "1.0.0",
+  "description": "A Live Chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KDS-LIMITLESS/talk2me.git"
+  },
+  "author": "KAMAH DANIEL SOMTOCHUKWU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KDS-LIMITLESS/talk2me/issues"
+  },
+  "homepage": "https://github.com/KDS-LIMITLESS/talk2me#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1"
+  }
+}

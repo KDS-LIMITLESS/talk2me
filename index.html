@@ -9,13 +9,13 @@
   <style>
     body {
       padding: 0;
-      margin: 0;
+      margin: 1rem;
       display: flex;
       justify-content: center;
     }
 
     #message-container {
-      width: 80%;
+      width: 50%;
       max-width: 1200px;
     }
 
@@ -40,6 +40,7 @@
 
     #message-input {
       flex-grow: 1;
+      width: 50%;
     }
   </style>
 </head>
@@ -85,6 +86,7 @@
           appendMessage(`You: ${message}`)
           socket.emit('send-chat-message', message)
           messageInput.value = ''
+          window.scrollTo(0, document.body.scrollHeight);
         }
       })
 
@@ -92,7 +94,7 @@
         const messageElement = document.createElement('div')
         messageElement.innerText = message
         messageContainer.append(messageElement)
-        window.scrollTo(0, document.body.scrollHeight);
+        
       }
     </script>
   </body>
